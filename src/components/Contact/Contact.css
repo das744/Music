@@ -1,0 +1,22 @@
+
+
+
+form input.form-control {
+    height: 56px;
+}
+
+form .form-control {
+    border: transparent;
+    border-radius: 0;
+    background-color: rgba(0,0,0,0.02);
+}
+form .form-control:focus{
+    color: #047ea8;
+}
+
+form .form-control:hover{
+    border: 1px solid #047ea8;
+}
+#contact{
+    margin-top: 100px;
+}

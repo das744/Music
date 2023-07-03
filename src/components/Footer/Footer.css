@@ -1,0 +1,39 @@
+
+:root {
+    --primary: #047ea8;
+    --dark: #061F45;
+    --body: #888;
+    --white: #ffffff;
+    --box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+}
+.footer-top {
+    padding: 30px;
+    text-align: center;
+    background-color: var(--dark);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    max-width: 100%;
+}
+.footer_main{
+    
+}
+.footer-top a {
+    color: var(--body);
+}
+
+.footer-top a:hover {
+    color: var(--white);
+}
+
+.footer-bottom {
+    background-color: #242933;
+}
+.social-icons a{
+    background-color:var(--dark) ;
+    border:  var(--dark);
+}
+@media (min-width: 820px){
+
+}

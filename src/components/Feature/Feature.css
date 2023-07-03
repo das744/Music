@@ -1,0 +1,56 @@
+
+
+#features{
+    min-height:100vh;
+    margin-top: -50px;
+
+}
+
+.col-img{
+    /* background-image: url('/public/img/music_watercolour.jpg'); */
+    background-image: url("../../assets/music.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 600px;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    /* padding-top: 30px; */
+	margin: 0 auto;
+}
+.content{
+ 
+    background-color: #3d9cbf;
+    color: white;
+   padding-top: 30px;
+    /* margin: 0 auto; */
+    padding-right: 70px;
+}
+.iconbox i{
+    color: aliceblue;
+}
+@media(max-width: 870px) {
+    p{
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width: 768px){
+    .offset-md-1 {
+        margin-left: 8.33333333%;
+        width: 100%;
+    }
+
+}
+@media (max-width: 412px){
+.content{
+    padding: 5px;
+    }
+}
+@media (max-width: 375px){
+    .content{
+        padding: 10px;
+        }
+    }

@@ -1,0 +1,59 @@
+#team{
+    padding-top: 20px;
+}
+
+.team-member img {
+    width: 125px;
+    height: 125px;
+    border-radius: 100px;
+  
+
+}
+.card-effect::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    border: 1px solid linear-gradient(to right top, #fbffc9, #c6ebba, #91d5b4, #5ebdb3, #2ba3b2, #1497b0, #008bad, #047ea8, #047ea8, #047ea8, #047ea8, #047ea8);
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+.card-effect {
+    box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+    background-color:white;
+    padding: 25px;
+    transition: all 0.35s ease;
+}
+
+.card-effect:hover {
+    box-shadow: none;
+    transform: translateY(5px);
+}
+.divider{
+    /* background-image: linear-gradient(to left bottom, #047ea8, #1288b2, #1d92bd, #269dc7, #2ea7d2); */
+    background-color: #061F45;
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divider h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: arial;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 15px;
+    text-shadow: 0 1px 0 #efefef,
+                 0 2px 0 #efefef,
+                 0 3px 0 #efefef,
+                 0 4px 0 #efefef,
+                 0 30px 5px rgba(249, 246, 246, 0.1);
+    /* animation: swing 3s linear infinite alternate; */
+  }
